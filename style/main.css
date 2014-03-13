@@ -313,7 +313,7 @@ hr {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 {
-    color: #f9f6f2;
+    color: #19e1e8;
     background: #f2b179; }
   .tile.tile-16 {
     color: #f9f6f2;
@@ -356,7 +356,7 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-1024 {
         font-size: 15px; } }
-  .tile.tile-4096 {
+  .tile.tile-2048 {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
@@ -364,7 +364,23 @@ hr {
     @media screen and (max-width: 480px) {
       .tile.tile-4096 {
         font-size: 15px; } }
-
+  .tile.tile-4096 {
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-8192 {
+        font-size: 15px; } }
+          .tile.tile-8192 {
+    color: #f9f6f2;
+    background: #edc22e;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-2048 {
+        font-size: 15px; } }
+        
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
